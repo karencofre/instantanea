@@ -19,10 +19,11 @@ h6{
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 22px;
   margin-bottom: 16px;
+  justify-content: center;
 }
 .grid-container img{
-  width: 273px;
-  height: 273px;
+  width: 293px;
+  height: 293px;
 }
 @media screen and (max-width:1024px) {}
 
