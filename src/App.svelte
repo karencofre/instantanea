@@ -38,11 +38,11 @@ nav{
       <Link to="/"><img src="../assets/fill-home.png" alt="icono home fill" class="icons"></Link>
       <img src="../assets/messenger.png" alt="icono messenger" class="icons">
       <img src="../assets/outline-heart.png" alt="icono corazon" class="icons">
-      <Link to="/profile"><img src="../assets/mini-profile.png" alt="mini profile" class="icons" id="mini-profile"></Link>
+      <Link to="profile"><img src="../assets/mini-profile.png" alt="mini profile" class="icons" id="mini-profile"></Link>
     </div>
   </nav>
   <div>
-    <Route path="/profile" > <Profile /> </Route>
+    <Route path="profile" component="{Profile}" > </Route>
     <Route path="/"><Home /></Route>
   </div>
 </Router>
