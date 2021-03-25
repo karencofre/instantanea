@@ -42,7 +42,7 @@ nav{
     </div>
   </nav>
   <div>
-    <Route path="/profile" component="{Profile}" /> <Profile /> </Route>
+    <Route path="/profile" /> <Profile /> </Route>
     <Route path="/"><Home /></Route>
   </div>
 </Router>
